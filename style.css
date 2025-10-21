@@ -144,6 +144,8 @@ a {
   #home img {
     position: relative;
     right: 0;
+    height: 20px;
+    weight: auto;
   }
 
   .teks {
