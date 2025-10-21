@@ -1,0 +1,152 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white; 
+  text-shadow: 2px 1px 3px black;
+}
+
+#home h1, #about h1, p, .aboutme, #project h1, #contact h1, li, h4, img{
+  animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.navbar {
+  background-color: #052659;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.navbar h4 {
+  margin: 10px;
+}
+
+nav {
+  color: white;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#home {
+  background-color: #021024;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+#home .me{
+  font-size: 20px;
+  position: relative;
+  left: 50px;
+}
+
+#home img {
+  position: relative;
+  right: 50px;
+}
+
+#about {
+  background-color: #052659;
+  padding: 30px;
+ }
+
+#about h1 {
+  text-align: center;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.teks {
+  background-color: #021024;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  position: relative;
+  left: 30px;
+  font-size: 15px;
+  max-width: 400px;
+}
+
+#project {
+  background-color: #021024;
+  text-align: center;
+  padding: 30px;
+}
+
+#contact {
+  background-color: #052659;
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 476px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul {
+    gap: 20px;
+    position: relative;
+    right: 20px;
+  }
+  
+  #home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #home .me {
+    font-size: 15px;
+    position: relative;
+    left: 0;
+  }
+
+  #home img {
+    position: relative;
+    right: 0;
+  }
+
+  .teks {
+    max-width: 200px;
+  }
+}
