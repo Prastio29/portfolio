@@ -100,7 +100,7 @@ a {
 }
 
 .aboutme img {
-  height: 70px;
+  height: 50px;
   weight: auto;
 }
 
@@ -162,7 +162,7 @@ a {
   }
 
   .aboutme img {
-  height: 70px;
-  weight: auto;
+    height: 50px;
+    weight: auto;
   }
 }
