@@ -76,7 +76,7 @@ a {
 #home img {
   position: relative;
   right: 50px;
-  height: 10px;
+  height: 70px;
   weight: auto;
 }
 
@@ -95,6 +95,11 @@ a {
   align-items: center;
   gap: 20px;
   color: white;
+}
+
+.aboutme img {
+  height: 70px;
+  weight: auto;
 }
 
 .teks {
@@ -152,5 +157,10 @@ a {
 
   .teks {
     max-width: 200px;
+  }
+
+  .aboutme img {
+  height: 70px;
+  weight: auto;
   }
 }
