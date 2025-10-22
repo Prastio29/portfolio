@@ -76,7 +76,7 @@ a {
 #home img {
   position: relative;
   right: 50px;
-  height: 20px;
+  height: 10px;
   weight: auto;
 }
 
@@ -146,7 +146,7 @@ a {
   #home img {
     position: relative;
     right: 0;
-    height: 20px;
+    height: 50px;
     weight: auto;
   }
 
