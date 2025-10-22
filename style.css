@@ -6,6 +6,7 @@ html {
 
 html, body {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -78,7 +79,7 @@ a {
 #home img {
   position: relative;
   right: 50px;
-  height: 70px;
+  height: 120px;
   weight: auto;
 }
 
@@ -100,7 +101,7 @@ a {
 }
 
 .aboutme img {
-  height: 50px;
+  height: 120px;
   weight: auto;
 }
 
@@ -153,7 +154,7 @@ a {
   #home img {
     position: relative;
     right: 0;
-    height: 50px;
+    height: 120px;
     weight: auto;
   }
 
@@ -162,7 +163,7 @@ a {
   }
 
   .aboutme img {
-    height: 50px;
+    height: 120px;
     weight: auto;
   }
 }
