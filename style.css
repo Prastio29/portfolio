@@ -76,6 +76,8 @@ a {
 #home img {
   position: relative;
   right: 50px;
+  height: 20px;
+  weight: auto;
 }
 
 #about {
