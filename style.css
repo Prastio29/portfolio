@@ -79,7 +79,7 @@ a {
 #home img {
   position: relative;
   right: 50px;
-  height: 120px;
+  height: 200px;
   weight: auto;
 }
 
@@ -101,7 +101,7 @@ a {
 }
 
 .aboutme img {
-  height: 120px;
+  height: 200px;
   weight: auto;
 }
 
@@ -154,7 +154,7 @@ a {
   #home img {
     position: relative;
     right: 0;
-    height: 120px;
+    height: 200px;
     weight: auto;
   }
 
@@ -163,7 +163,7 @@ a {
   }
 
   .aboutme img {
-    height: 120px;
+    height: 200px;
     weight: auto;
   }
 }
