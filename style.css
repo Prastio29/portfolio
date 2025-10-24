@@ -116,14 +116,20 @@ a {
   max-width: 400px;
 }
 
-#project {
+.skills {
   background-color: #021024;
+  text-align: center;
+  padding: 20px;
+  }
+
+#project {
+  background-color: #052659;
   text-align: center;
   padding: 30px;
 }
 
 #contact {
-  background-color: #052659;
+  background-color: #021024;
   text-align: center;
   padding: 20px;
 }
