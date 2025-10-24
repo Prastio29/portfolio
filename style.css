@@ -168,6 +168,9 @@ a {
     max-width: 200px;
   }
 
+  #about {
+    gap: 5px;
+  }
   .aboutme img {
     height: 200px;
     weight: auto;
