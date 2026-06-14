@@ -92,7 +92,7 @@ a {
   text-align: center;
 }
 
-.aboutme {
+#aboutme {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,12 +100,12 @@ a {
   color: white;
 }
 
-.aboutme img {
+#aboutme img {
   height: 200px;
   width: auto;
 }
 
-.teks {
+#teks {
   background-color: #021024;
   padding: 10px;
   padding-left: 20px;
@@ -116,11 +116,11 @@ a {
   max-width: 400px;
 }
 
-.skills {
+#skills {
   background-color: #021024;
   text-align: center;
   padding: 20px;
-  }
+}
 
 #project {
   background-color: #052659;
@@ -135,7 +135,7 @@ a {
 }
 
 @media screen and (max-width: 476px) {
-  .navbar {
+  #navbar {
     display: flex;
     flex-direction: column;
   }
@@ -151,7 +151,7 @@ a {
     flex-direction: column;
   }
 
-  #home .me {
+  #home #me {
     font-size: 15px;
     position: relative;
     left: 0;
@@ -164,14 +164,14 @@ a {
     width: auto;
   }
 
-  .teks {
+  #teks {
     max-width: 200px;
   }
 
   #about {
     gap: 5px;
   }
-  .aboutme img {
+  #aboutme img {
     height: 200px;
     width: auto;
   }
