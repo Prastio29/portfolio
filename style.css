@@ -70,7 +70,7 @@ a {
   padding: 20px;
 }
 
-#home #me{
+#me{
   font-size: 20px;
   position: relative;
   left: 50px;
@@ -151,7 +151,7 @@ a {
     flex-direction: column;
   }
 
-  #home #me {
+  #me {
     font-size: 15px;
     position: relative;
     left: 0;
