@@ -15,7 +15,7 @@ body {
   text-shadow: 2px 1px 3px black;
 }
 
-#home h1, #about h1, p, .aboutme, #project h1, #contact h1, li, h4, img{
+#home h1, #about h1, p, #aboutme, #project h1, #contact h1, li, h4, img{
   animation: fadeIn 2s ease;
 }
 
@@ -30,7 +30,7 @@ body {
   }
 }
 
-.navbar {
+#navbar {
   background-color: #052659;
   display: flex;
   justify-content: space-between;
@@ -40,7 +40,7 @@ body {
   padding: 15px;
 }
 
-.navbar h4 {
+#navbar h4 {
   margin: 10px;
 }
 
@@ -70,7 +70,7 @@ a {
   padding: 20px;
 }
 
-#home .me{
+#home #me{
   font-size: 20px;
   position: relative;
   left: 50px;
