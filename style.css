@@ -80,7 +80,7 @@ a {
   position: relative;
   right: 50px;
   height: 200px;
-  weight: auto;
+  width: auto;
 }
 
 #about {
@@ -102,7 +102,7 @@ a {
 
 .aboutme img {
   height: 200px;
-  weight: auto;
+  width: auto;
 }
 
 .teks {
@@ -161,7 +161,7 @@ a {
     position: relative;
     right: 0;
     height: 200px;
-    weight: auto;
+    width: auto;
   }
 
   .teks {
@@ -173,6 +173,6 @@ a {
   }
   .aboutme img {
     height: 200px;
-    weight: auto;
+    width: auto;
   }
 }
