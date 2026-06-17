@@ -133,6 +133,13 @@ a {
   gap: 15px;
 }
 
+.another_skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px;
+}
+
+
 #items {
   padding: 20px;
   text-align: center;
