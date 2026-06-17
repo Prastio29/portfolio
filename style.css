@@ -206,4 +206,29 @@ a {
     height: 200px;
     width: auto;
   }
+
+  .coding_skills {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 15px;
+}
+
+#img-items {
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.skills img {
+  width: 100px;
+  height: auto;
+  margin-left: 15px;
+}
+
+.another_skills {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 15px;
+  padding: 10px;
+  }
 }
