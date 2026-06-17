@@ -127,6 +127,11 @@ a {
   height: auto;
 }
 
+.coding_skills {
+  display: grid;
+  gap: 15px;
+}
+
 #project {
   background-color: #052659;
   text-align: center;
