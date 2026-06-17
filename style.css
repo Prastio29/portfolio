@@ -209,8 +209,8 @@ a {
 
   .coding_skills {
   display: grid; 
-  grid-template-columns: repeat(1, 1fr); 
-  gap: 15px;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 8px;
 }
 
 #img-items {
@@ -227,8 +227,8 @@ a {
 
 .another_skills {
   display: grid; 
-  grid-template-columns: repeat(1, 1fr); 
-  gap: 15px;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 8px;
   padding: 10px;
   }
 
