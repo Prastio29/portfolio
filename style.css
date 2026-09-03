@@ -1,239 +1,384 @@
-html {
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  color: white; 
-  text-shadow: 2px 1px 3px black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #E8F1FA;
 }
 
-#home h1, #about h1, p, .aboutme, #project h1, #contact h1, li, h4, img{
-  animation: fadeIn 2s ease;
+#garis-home {
+    width: 1100px;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
-@keyframes fadeIn {
-  from {
-    transform: translateY(20px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+#garis-about {
+    width: 1100px;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 
-.navbar {
-  background-color: #052659;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-  padding: 10px;
+#navbar {
+    background-color: #E8F1FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    padding: 10px;
 }
 
-.navbar h4 {
-  margin: 10px;
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin-right: 20px;
+    color: 0D1B2A;
 }
 
-nav {
-  color: white;
+#navbar ul li {
+    padding: 12px;
+    transition: background-color 0.3s;
+    border-radius: 30px;
+    font-size: 20px;
 }
 
-ul {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  gap: 25px;
-  margin: 10px;
+#navbar ul li a {
+    text-decoration: none;
+    color: #0D1B2A;
 }
 
-a {
-  text-decoration: none;
-  color: white;
+#navbar ul li button {
+    text-decoration: none;
+    color: #0D1B2A;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+#navbar ul h3 {
+    font-size: 25px;
+    color: #0D1B2A;
+}
+
+#navbar ul li:hover {
+    background-color: #A8C5E0;
+    color: #0D1B2A;
+    border-radius: 100px;
 }
 
 #home {
-  background-color: #021024;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-  padding: 20px;
+    height: 100%;
+    height: auto;
+    background-color: #E8F1FA;
+    padding-top: 20px;
 }
 
-#home .me{
-  font-size: 20px;
-  position: relative;
-  left: 50px;
+#me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#home img {
-  position: relative;
-  right: 50px;
-  height: 200px;
-  width: auto;
+#me h1 {
+    font-size: 80px;
+    line-height: 1.1;
+    color: aliceblue;
+}
+
+#me .teks-atas {
+    font-size: 35px;
+    font-weight: normal;
+    color: #0D1B2A;
+}
+
+#me .teks-tengah1 {
+    color: #0D1B2A;
+}
+
+#me .teks-tengah2 {
+    color: #3D5A80;
+}
+
+#me .teks-bawah {
+    margin-top: 10px;
+    font-size: 16px;
+    width: 600px;
+    font-weight: normal;    
+    color: #0D1B2A;
+}
+
+#gambar .circle {
+    width: 500px;
+    height: 500px;
+    background-color: #0D1B2A;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    right: 6%;
+}
+
+.circle .circle2 {
+    width: 350px;
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 80px;
+    border-radius: 50%;
+    background-color: #3D5A80;
+    border: 1px solid black;
+}
+
+#gambar #mine {
+    position: relative;
+    right: -15%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#mine img {
+    width: 450px;
+    position: relative;
+    right: -3%;
 }
 
 #about {
-  background-color: #052659;
-  padding: 30px;
- }
+    background-color: #E8F1FA;
+    padding-top: 20px;
+}
 
 #about h1 {
-  text-align: center;
+    padding-top: 20px;
+    text-align: center;
+    color: #0D1B2A;
 }
 
-.aboutme {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+#about h2 {
+    padding-top: 20px;
+    text-align: center;
+    color: #0D1B2A;
 }
 
-.aboutme img {
-  height: 200px;
-  width: auto;
+#about #profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
 
-.teks {
-  background-color: #021024;
-  padding: 10px;
-  padding-left: 20px;
-  border-radius: 10px;
-  position: relative;
-  left: 30px;
-  font-size: 15px;
-  max-width: 400px;
+#profile img {
+    width: 200px;
+    height: auto;
+    border-top-right-radius: 50px;
 }
 
-.skills {
-  background-color: #021024;
-  text-align: center;
-  padding: 20px;
+#profile p {
+    width: 400px;
+    height: auto;
+    text-align: justify;
+    background-color: #3D5A80;
+    color: #E8F1FA;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-.coding_skills {
-  display: grid; 
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 15px;
+#my-skill {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
 }
 
-#img-items {
-  padding: 20px;
-  text-align: center;
-  border-radius: 5px;
+
+#programming ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 20px;
 }
 
-.skills img {
-  width: 100px;
-  height: auto;
-  margin-left: 15px;
+#programming ul li ul {
+    display: none;
 }
 
-.another_skills {
-  display: grid; 
-  grid-template-columns: repeat(3, 2fr); 
-  gap: 15px;
-  padding: 10px;
+#programming ul li:hover ul{
+    display: block;
 }
 
-#project {
-  background-color: #052659;
-  text-align: center;
-  padding: 30px;
+#programming img{
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#designing {
+    position: relative;
+    right: 5%;
+}
+
+#designing ul {
+    list-style: none;
+}
+
+#designing ul li {
+    margin-top: 40px;
+}
+
+#designing img{
+    width: 80px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#other {
+    position: relative;
+    right: 9%;
+}
+
+#other ul {
+    list-style: none;
+}
+
+#other ul li {
+    margin-top: 40px;
+}
+
+#other img{
+    width: 80px;
+    height: auto;
+    border-radius: 40px;
+}
+
+#works {
+    padding-top: 50px;
+    background-color: #E8F1FA;
+    color: #0D1B2A;
+    padding-bottom: 20px;
+}
+
+#works h1{
+    text-align: center;
+}
+
+#web {
+    margin-top: 20px;
+}
+
+#web ul{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    list-style: none;
+    text-align: center;
+}
+
+#web ul li img {
+    width: 350px;
+}
+
+#web ul li a{
+    text-decoration: underline;
+    color: #0D1B2A;
+}
+
+#web ul li h1 {
+    font-size: 20px;
+}
+
+#desain {
+    margin-top: 20px;
+}
+
+#desain ul{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    text-align: center;
+    list-style: none;
+}
+
+#desain ul li img{
+    width: 200px;
+    margin-top: 10px;
+}
+
+#desain ul li a{
+    text-decoration: none;
+    color: #0D1B2A;
+}
+
+#desain ul li h1 {
+    font-size: 20px;
 }
 
 #contact {
-  background-color: #021024;
-  text-align: center;
-  padding: 20px;
+    background-color: #0D1B2A;
+    color: #E8F1FA;
+    padding-top: 20px;
 }
 
-#contact img {
-  width: 80px;
-  height: auto;
-  margin-right: 20px
+#contact h1{
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-@media screen and (max-width: 476px) {
-  .navbar {
+#contact-atas {
     display: flex;
-    flex-direction: column;
-  }
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+}
 
-  ul {
-    gap: 20px;
-    position: relative;
-    right: 20px;
-  }
-  
-  #home {
+#contact-atas #garis {
+    width: 245px;
+    border: 1px solid #E8F1FA;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#garis-tengah {
+    width: 700px;
+    border: 1px solid #E8F1FA;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+}
+
+#medsos {
     display: flex;
-    flex-direction: column;
-  }
-
-  #home .me {
-    font-size: 15px;
-    position: relative;
-    left: 0;
-  }
-
-  #home img {
-    position: relative;
-    right: 0;
-    height: 200px;
-    width: auto;
-  }
-
-  .teks {
-    max-width: 200px;
-  }
-
-  #about {
-    gap: 5px;
-  }
-  .aboutme img {
-    height: 200px;
-    width: auto;
-  }
-
-  .coding_skills {
-  display: grid; 
-  grid-template-columns: repeat(2, 1fr); 
-  gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
-#img-items {
-  padding: 20px;
-  text-align: center;
-  border-radius: 5px;
+#medsos ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    padding-bottom: 10px;
 }
 
-.skills img {
-  width: 100px;
-  height: auto;
-  margin-left: 15px;
+#medsos ul li #circle-ig {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E8F1FA;
+    border-radius: 50%;
 }
 
-.another_skills {
-  display: grid; 
-  grid-template-columns: repeat(2, 1fr); 
-  gap: 10px;
-  padding: 10px;
-  }
-
-  #contact img {
-  width: 50px;
-  height: auto;
-  margin-right: 25px
-  }
+#circle-ig img {
+    width: 44px;
+    margin-left: 1px;
 }

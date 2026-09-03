@@ -1,76 +1,140 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-</head>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
   <body>
-    <div class="navbar">
-      <h4>Portofolio</h4>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#project">Project</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+    
+    <div id="navbar">
+      <ul>
+        <li><a href="#home"><button id="menu-home">Home</button></a></li>
+        <li class="menu-about"><a href="#about">About</a></li>
+        <h3>Portfolio</h3>
+        <li class="menu-works"><a href="#works">Works</a></li>
+        <li class="menu-contact"><a href="#contact">Contact</a></li>
+      </ul>
+    </div> 
+
+  <!-- HOME -->
+    <div id="home">
+      <div id="me">
+        <div id="teks">
+          <h1 class="teks-atas">Hello, I'm Prastio Romadoni</h1>
+          <h1 class="teks-tengah1">FrontEnd</h1> <h1 class="teks-tengah2">Developer</h1>
+        </div>
+        <div id="gambar">
+
+          <div class="circle">
+            <div class="circle2"></div>
+          </div>
+
+          <div id="mine">
+            <img src="images/me.png" alt="Prastio Romadoni">
+          </div>
+        </div>
+      </div>
+      <div id="garis-home"></div>
     </div>
 
-    <div id="home">
-      <div class="me">
-        <h1>Halo, I'm<br>
-        Prastio Romadoni</h1>
-        <h4>Web Development</h4>
-      </div>
-      <img src="images/IMG-20250715-WA0006.jpg">
-    </div>
+    <!-- ABOUT AND SKILLS -->
 
     <div id="about">
       <h1>About Me</h1>
-      <div class="aboutme">
-        <img src="images/me.jpg">
-        <div class="teks">
-          <p>A 2nd semester student of the Information System Major in Universitas Dirgantara Marsekal Suryadarma who are interested in creating websites, applications, and games.  Able to do multiple tasks at once and good at communication. Always want to create more websites, applications, or games to attract people interest.</p>
+      <div id="profile">
+        <img src="images/another-me.jpg">
+        <p>A student of Information System Major at Universitas Dirgantara Marsekal Suryadarma who is interested and love in creating websites, applications, and games. I've learned about make website or application in a year and still learning about the frameworks of each programming language. I've learned a lot of skills that I really like to reach my dream. The dream is I want to create applications, websites, or games that can attract people around the world</p>
+      </div>
+      <h2>MY SKILLS</h2>
+      <div id="my-skill">
+        <div id="programming">
+          <h2>Programming</h2>
+          <ul>
+            <li><img src="images/html.jpeg"></li>
+            <li><img src="images/css.jpeg"></li>
+            <li><img src="images/js.jpeg"></li>
+            <li><img src="images/python.jpeg">
+            <ul>
+              <li><img src="images/pygame.png"></li>
+            </ul>
+            </li>
+            <li><img src="images/cpp.jpeg"></li>
+          </ul>
+        </div>
+        
+        <div id="designing">
+          <h2>Designing</h2>
+          <ul>
+            <li><img src="images/figma.jpeg"></li>
+            <li><img src="images/ps.jpeg"></li>
+          </ul>
+        </div>
+
+        <div id="other">
+          <h2>Other Skills</h2>
+          <ul>
+            <li><img src="images/am.jpeg"></li>
+            <li><img src="images/capcut.jpg"></li>
+          </ul>
         </div>
       </div>
+      <div id="garis-about"></div>
     </div>
 
-    <div class="skills">
-      <h1>My Skills</h1>
-      <div class="coding_skills">
-        <div id="img-items"><img src="images/html.jpeg"></div>
-        <div id="img-items"><img src="images/css.jpeg"></div>
-        <div id="img-items"><img src="images/js.jpeg"></div>
-        <div id="img-items"><img src="images/cpp.jpeg"></div>
-        <div id="img-items"><img src="images/python.jpeg"></div>
+    <!-- WORKS -->
+
+    <div id="works">
+      <h1>My Works</h1>
+      <div id="my-works">
+        <div id="web">
+          <ul>
+            <li><img src="images/fun-website1.png" alt="Fun Website"><a href="https://prastio29.github.io/fun-website/"><h1>Personal Project</h1></a></li>
+            <li><img src="images/project-web.png" alt="Project Website"><a href=""><h1> Project</h1></a></li>
+            <li><img src="images/fun-website2.png" alt="Fun Website"><a href="https://prastio29.github.io/love-letter/"><h1>Personal Project</h1></a></li>
+            <li><img src="images/game-project.png" alt="Game Project"><h1>Personal Project</h1></li>
+          </ul>
+        </div>
+        
+        <div id="desain">
+          <ul>
+            <li><img src="images/Prastio Romadoni_Cover Majalah.jpg" alt="Project Design"><h1>Personal Project</h1></li>
+            <li><img src="images/Prastio Romadoni_Desain Ruby.jpg" alt="Project Design"><h1>Personal Project</h1></li>
+            <li><img src="images/Prastio Romadoni_Poster.jpg" alt="Project Design"><h1>Personal Project</h1></li>
+          </ul>
+        </div>
       </div>
-
-      <div class="another_skills">
-        <div id="img-items"><img src="images/am.jpeg"></div>
-        <div id="img-items"><img src="images/figma.jpeg"></div>
-        <div id="img-items"><img src="images/ps.jpeg"></div>
-      </div>
+      <div id="garis-works"></div>
     </div>
 
-    <div id="project">
-      <h1>Project</h1>
-      <p><a href="https://prastio29.github.io/fun-website/">Fun Website</a></p>
-    </div>
+    <!-- CONTACT -->
 
     <div id="contact">
-      <h1>Contact</h1>
-      <img src="images/gmail.jpeg"><p>prastio.r290@gmail.com</p>
-      <img src="images/wa.jpeg"><a href="https://wa.me//+62-857-8123-9103"><p>+62-857-8123-9103</p></a>
-      
-      <div class="medsos">
-        <a href="https://www.instagram.com/prastio_29"><img src="images/ig.jpeg"></a>
-        <a href="https://www.tiktok.com/@tioo299"><img src="images/tt.jpeg"></a>
-        <a href="https://www.linkedin.com/in/prastio-romadoni-01460b365?utm_source=share_via&utm_content=profile&utm_medium=member_android"><img src="images/link.jpeg"></a>
+      <h1>Let's Work Together</h1>
+
+      <div id="contact-atas">
+        <div id="email">
+          <h3>prastio.r290@gmail.com</h3>
+          <div id="garis"></div>
+        </div>
+
+        <div id="number">
+          <h3>+62-857-8123-9103</h3>
+          <div id="garis"></div>
+          <h3>East Jakarta, Indonesia</h3>
+        </div>
+      </div>
+
+      <div id="garis-tengah"></div>
+
+      <div id="medsos">
+        <ul>
+          <li><div id="circle-ig"><a href=""><img src="images/ig.png"></div></a></li>
+          <li><div id="circle-ig"><a href=""><img src="images/tt.png"></a></div></li>
+          <li><div id="circle-ig"><a href=""><img src="images/linkedin.png"></a></div></li>
+        </ul>
       </div>
     </div>
 
-  <script src = "script.js"></script>
-</body>
+  </body>
 </html>
